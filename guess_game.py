@@ -5,7 +5,7 @@ def get_user_guess():
     return guess_number
 
 guess_number = get_user_guess()
-print(f"Let's play Number Guess Game!\n Comment: Guess number is {guess_number}\n")
+print(f"Let's play a Number Guess Game!\nComment: Guess number is {guess_number}\n")
 
 while True:
     try:
