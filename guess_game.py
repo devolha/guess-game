@@ -10,7 +10,7 @@ print(f"Let's play Number Guess Game!\n Comment: Guess number is {guess_number}\
 while True:
     try:
         user_input = int(input("Enter a number from 1 to 10: "))
-        if user_input not in range(1,10):
+        if user_input not in range(1,11):
             print('Please enter a number between 1 and 10: ')
         elif user_input == guess_number:
             print(f'Congratulations! It was {guess_number}!')
